@@ -1,4 +1,4 @@
-﻿namespace CalculadoraATestear
+﻿namespace CalculadoraApp.Calculadora
 {
     public interface ICalculadora
     {

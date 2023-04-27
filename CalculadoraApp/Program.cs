@@ -1,4 +1,4 @@
-﻿using CalculadoraATestear;
+﻿using CalculadoraApp.Calculadora;
 
 Calculadora c = new();
 Servicio s = new(c);

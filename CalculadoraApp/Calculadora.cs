@@ -1,4 +1,4 @@
-﻿namespace CalculadoraATestear
+﻿namespace CalculadoraApp.Calculadora
 {
     public class Calculadora : ICalculadora
     {
@@ -10,15 +10,15 @@
         virtual public int Suma(int num1, int num2)
         {
             return num1 + num2;
-        }  
+        }
         virtual public int Resta(int num1, int num2)
         {
             return num1 - num2;
-        }  
+        }
         virtual public int Multiplicar(int num1, int num2)
         {
             return num1 * num2;
-        }  
+        }
         virtual public int? Dividir(int num1, int num2)
         {
             if (num2 == 0)

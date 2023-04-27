@@ -1,10 +1,11 @@
-﻿namespace CalculadoraATestear
+﻿namespace CalculadoraApp.Calculadora
 {
     public class Servicio
     {
         Calculadora Calculadora;
 
-        public Servicio(Calculadora calculadora) {
+        public Servicio(Calculadora calculadora)
+        {
             Calculadora = calculadora;
         }
 
@@ -29,7 +30,7 @@
             }
             return null;
         }
-        
+
         public int? Resta(string Num1, string Num2)
         {
             if (Filter(Num1, Num2))
@@ -38,7 +39,7 @@
             }
             return null;
         }
-        
+
         public int? Multiplicar(string Num1, string Num2)
         {
             if (Filter(Num1, Num2))
@@ -46,7 +47,8 @@
                 return Calculadora.Multiplicar(int.Parse(Num1), int.Parse(Num2));
             }
             return null;
-        }public int? Dividir(string Num1, string Num2)
+        }
+        public int? Dividir(string Num1, string Num2)
         {
             if (Filter(Num1, Num2))
             {
